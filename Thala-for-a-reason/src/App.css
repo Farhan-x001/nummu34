@@ -82,7 +82,12 @@
 .app-container button:first-child {
   background-color: #007BFF;
 }
+a.{
+ 
+}
+.href{
 
+}
 .app-container button:last-child {
   background-color: #dc3545;
 }
@@ -121,4 +126,48 @@
   .app-container h2 {
     font-size: 1em;
   }
+}
+/* Add this to your App.css or any relevant CSS file */
+
+video {
+  width: 100%; /* Make the video element fill its container */
+  max-width: 600px; /* Adjust the maximum width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  margin-top: 20px; /* Optional: Adjust the top margin */
+}
+
+/* Additional styling for video controls */
+video::-webkit-media-controls {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+video::-webkit-media-controls-play-button {
+  color: #fff;
+}
+
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display {
+  color: #fff;
+  margin: 0 5px;
+}
+.user-info{
+ background-color: #dc3545;
+ border-radius: 20px;
+ margin-bottom: 20px;
+}
+
+.user-info img {
+  border-radius: 20%;
+  padding: 12px 12px 6px;
+  width: 100;
+  height: 100;
+}
+.footer{
+  text-decoration: none; /* Remove text decoration for all anchor links inside #foot */
+  color: black;
 }

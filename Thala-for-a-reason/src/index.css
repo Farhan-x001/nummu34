@@ -26,8 +26,17 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  /* min-height: 1985px;
+  /*min-width: 320px;*/
+  /* min-height: 100vh; */ 
+  margin: 0;
+  padding: 0;
+  background: url("bg.svg") center/750% no-repeat; /* Replace 'your-background-image-url.jpg' with the actual URL */
+  font-family: "Figtree", sans-serif;
+  position: absolute;
+  transition: all 0.3s ease-in;
+  flex-direction: column;
+  cursor: url('b.png') 5 5, auto;
 }
 
 h1 {
